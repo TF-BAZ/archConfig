@@ -1,0 +1,38 @@
+files:
+  - url: ""
+    time: 1679667724304.yml
+    name: config.yaml
+    selected: []
+  - time: 1679668930916.yml
+    name: ClashR_1679668925.yaml
+    url: https://dy.hahbhchdhfhghhhihjhihkhlhm169.online/link/7tUblv6vkhNbsiHZ?clash=2
+    selected:
+      - name: GLOBAL
+        now: I+.SG⇠广州:VC38116
+      - name: 🔰国外流量
+        now: I+.TW.新北⇠HiNet:VC33112
+      - name: ⚓️其他流量
+        now: 🔰国外流量
+      - name: ✈️Telegram
+        now: 🔰国外流量
+      - name: 🎬Youtube
+        now: 🔰国外流量
+      - name: 🎬Netflix
+        now: 🔰国外流量
+      - name: 🎬哔哩哔哩
+        now: 🚀直接连接
+      - name: 🎬国外媒体
+        now: 🔰国外流量
+      - name: 🍎苹果服务
+        now: 🚀直接连接
+      - name: 🚀直接连接
+        now: DIRECT
+    interval: 0
+    subInfo:
+      upload: 879285658
+      download: 207293514868
+      total: 322122547200
+      expire: 1711411781
+    homeWeb: ""
+    mode: global
+index: 1

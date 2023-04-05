@@ -1,0 +1,32 @@
+<application>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "MarketplacePluginsSearchHistory": "eval\neva\ne\nidea eval\nidea e",
+    "NextRunPlatformUpdateBuild": "PC-223.8836.43",
+    "NextRunPlatformUpdateVersion": "2022.3.3",
+    "NonModalCommitCustomization.IsApplied": "true",
+    "PyCharm.InitialConfiguration": "true",
+    "PyCharm.InitialConfiguration.V2": "true",
+    "PyCharm.InitialConfiguration.V3": "true",
+    "PyCharm.InitialConfiguration.V4": "true",
+    "PyCharm.InitialConfiguration.V5": "true",
+    "PyCharm.InitialConfiguration.V6": "true",
+    "PyCharm.InitialConfiguration.V7": "true",
+    "PyCharm.InitialConfiguration.V8": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "bundled.plugins.list.saved.version": "PC-223.8836.34",
+    "experimentalFeature.terminal.shell.command.handling": "false",
+    "fileTypeChangedCounter": "2",
+    "fontSizeToResetConsole": "12.0",
+    "fontSizeToResetEditor": "12.0",
+    "previousColorScheme": "_@user_Darcula",
+    "tasks.pass.word.conversion.enforced": "true"
+  },
+  "keyToStringList": {
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

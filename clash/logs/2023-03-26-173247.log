@@ -1,0 +1,13 @@
+17:32:47 INF [Inbound] Mixed(http+socks) listening addr=127.0.0.1:7890
+17:32:47 INF [API] listening addr=127.0.0.1:34375
+17:32:47 INF [Config] initial compatible provider name=🎬哔哩哔哩
+17:32:47 INF [Config] initial compatible provider name=🍎苹果服务
+17:32:47 INF [Config] initial compatible provider name=🚀直接连接
+17:32:47 INF [Config] initial compatible provider name=🔰国外流量
+17:32:47 INF [Config] initial compatible provider name=⚓️其他流量
+17:32:47 INF [Config] initial compatible provider name=✈️Telegram
+17:32:47 INF [Config] initial compatible provider name=🎬国外媒体
+17:32:47 INF [Config] initial compatible provider name=🎬Netflix
+17:32:47 INF [Config] initial compatible provider name=🎬Youtube
+17:34:53 INF [TCP] connected lAddr=127.0.0.1:35940 rAddr=aur.archlinux.org:443 mode=global
+17:35:05 INF [TCP] connected lAddr=127.0.0.1:46602 rAddr=aur.archlinux.org:443 mode=global

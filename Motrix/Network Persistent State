@@ -1,0 +1,1 @@
+{"net":{"http_server_properties":{"servers":[{"alternative_service":[{"advertised_versions":[],"expiration":"13326905998898364","port":443,"protocol_str":"quic"}],"isolation":[],"server":"https://r3---sn-npoldn7d.gvt1.com"},{"isolation":[],"server":"https://redirector.gvt1.com","supports_spdy":true}],"version":5},"network_qualities":{"CAISABiAgICA+P////8B":"4G"}}}

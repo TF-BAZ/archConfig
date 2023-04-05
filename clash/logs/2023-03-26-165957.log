@@ -1,0 +1,11 @@
+16:59:57 INF [Inbound] Mixed(http+socks) listening addr=127.0.0.1:7890
+16:59:57 INF [API] listening addr=127.0.0.1:45501
+16:59:57 INF [Config] initial compatible provider name=🔰国外流量
+16:59:57 INF [Config] initial compatible provider name=✈️Telegram
+16:59:57 INF [Config] initial compatible provider name=🎬Youtube
+16:59:57 INF [Config] initial compatible provider name=🎬哔哩哔哩
+16:59:57 INF [Config] initial compatible provider name=🍎苹果服务
+16:59:57 INF [Config] initial compatible provider name=⚓️其他流量
+16:59:57 INF [Config] initial compatible provider name=🚀直接连接
+16:59:57 INF [Config] initial compatible provider name=🎬Netflix
+16:59:57 INF [Config] initial compatible provider name=🎬国外媒体
