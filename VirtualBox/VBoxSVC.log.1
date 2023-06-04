@@ -1,79 +1,190 @@
-00:00:00.000564 main     VirtualBox XPCOM Server 7.0.6 r155176 linux.amd64 (Feb 22 2023 15:36:54) release log
-00:00:00.000569 main     Log opened 2023-04-12T14:38:08.456081000Z
-00:00:00.000571 main     Build Type: release
-00:00:00.000576 main     OS Product: Linux
-00:00:00.000579 main     OS Release: 6.2.9-arch1-1
-00:00:00.000583 main     OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 30 Mar 2023 14:51:14 +0000
-00:00:00.000630 main     DMI Product Name: Inspiron 5577
-00:00:00.000656 main     DMI Product Version: 1.0.5
-00:00:00.000672 main     Firmware type: BIOS
-00:00:00.000750 main     Host RAM: 15769MB (15.3GB) total, 14768MB (14.4GB) available
-00:00:00.000757 main     Executable: /usr/lib/virtualbox/VBoxSVC
-00:00:00.000758 main     Process ID: 1553
-00:00:00.000759 main     Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.004952 main     IPC socket path: /tmp/.vbox-baz-ipc/ipcd
-00:00:00.120466 nspr-2   VirtualBox: object creation starts
-00:00:00.120665 nspr-2   Home directory: '/home/baz/.config/VirtualBox'
-00:00:00.121048 nspr-2   Loading settings file "/home/baz/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.182243 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.183152 nspr-2   HostDnsMonitor: initializing
-00:00:00.183451 nspr-2   NAT: resolv.conf: nameserver 8.8.8.8
-00:00:00.183462 nspr-2   NAT: resolv.conf: nameserver 114.114.114.114
-00:00:00.183466 nspr-2   NAT: resolv.conf: nameserver 127.0.0.53
-00:00:00.183470 nspr-2   NAT: resolv.conf: ignoring "options edns0 trust-ad"
-00:00:00.183478 nspr-2   HostDnsMonitor: updating information
-00:00:00.183489 nspr-2   HostDnsMonitor: old information
-00:00:00.183493 nspr-2     no server entries
-00:00:00.183496 nspr-2     no domain set
-00:00:00.183499 nspr-2     no search string entries
-00:00:00.183502 nspr-2   HostDnsMonitor: new information
-00:00:00.183505 nspr-2     server 1: 8.8.8.8
-00:00:00.183508 nspr-2     server 2: 114.114.114.114
-00:00:00.183512 nspr-2     server 3: 127.0.0.53
-00:00:00.183515 nspr-2     domain: .
-00:00:00.183518 nspr-2     search string 1: .
-00:00:00.185529 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
-00:00:00.185639 nspr-2   VD: VDInit finished with VINF_SUCCESS
-00:00:00.185705 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
-00:00:00.190164 nspr-2   Loading settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
-00:00:00.190904 nspr-2   VirtualBox: object created
-00:00:00.924745 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:00.926216 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
-00:00:01.019463 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:01.020496 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
-00:00:01.147950 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:01.149057 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:04.990554 nspr-4   Launched VM: 7392 pid: 1584 (0x630) frontend: GUI/Qt name: win10
-00:00:05.061184 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:05.062516 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
-00:00:05.085382 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:05.086449 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:05.491814 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The virtual machine 'win10' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
-00:00:05.583944 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:05.586102 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
-00:00:05.613994 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:05.614739 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:06.756614 nspr-3   Saving settings file "/home/baz/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:06.900357 nspr-3   Finished saving settings file "/home/baz/.config/VirtualBox/VirtualBox.xml"
-00:03:56.961232 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:03:56.962776 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
-00:03:57.019893 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:03:57.020824 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
-00:03:57.163124 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:03:57.164871 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:03:58.157365 nspr-5   Launched VM: 8304 pid: 2361 (0x939) frontend: GUI/Qt name: win10
-00:03:58.238292 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:03:58.239691 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
-00:03:58.282951 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:03:58.285987 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:03:58.658213 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The virtual machine 'win10' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
-00:03:58.716357 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:03:58.718202 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
-00:03:58.741859 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:03:58.742676 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:05:05.949499 main     VirtualBox: object deletion starts
-00:05:05.949577 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/baz/VirtualBox VMs/win10/win10.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
-00:05:05.950777 main     HostDnsMonitor: shutting down ...
-00:05:05.951116 main     HostDnsMonitor: shut down
-00:05:05.964287 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
-00:05:05.964463 main     VirtualBox: object deleted
+00:00:00.000672 main     VirtualBox XPCOM Server 7.0.6 r155176 linux.amd64 (Feb 22 2023 15:36:54) release log
+00:00:00.000677 main     Log opened 2023-04-12T14:57:23.568281000Z
+00:00:00.000679 main     Build Type: release
+00:00:00.000684 main     OS Product: Linux
+00:00:00.000688 main     OS Release: 6.2.10-arch1-1
+00:00:00.000691 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 07 Apr 2023 02:10:43 +0000
+00:00:00.000737 main     DMI Product Name: Inspiron 5577
+00:00:00.000762 main     DMI Product Version: 1.0.5
+00:00:00.000777 main     Firmware type: BIOS
+00:00:00.000857 main     Host RAM: 15769MB (15.3GB) total, 14779MB (14.4GB) available
+00:00:00.000864 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000865 main     Process ID: 1628
+00:00:00.000866 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.005046 main     IPC socket path: /tmp/.vbox-baz-ipc/ipcd
+00:00:00.120730 nspr-2   VirtualBox: object creation starts
+00:00:00.120945 nspr-2   Home directory: '/home/baz/.config/VirtualBox'
+00:00:00.121356 nspr-2   Loading settings file "/home/baz/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.127362 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0a2a)
+00:00:00.127718 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.210681 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.213447 nspr-2   HostDnsMonitor: initializing
+00:00:00.214118 nspr-2   NAT: resolv.conf: nameserver 8.8.8.8
+00:00:00.214154 nspr-2   NAT: resolv.conf: nameserver 114.114.114.114
+00:00:00.214169 nspr-2   NAT: resolv.conf: nameserver 127.0.0.53
+00:00:00.214182 nspr-2   NAT: resolv.conf: ignoring "options edns0 trust-ad"
+00:00:00.214211 nspr-2   HostDnsMonitor: updating information
+00:00:00.214246 nspr-2   HostDnsMonitor: old information
+00:00:00.214258 nspr-2     no server entries
+00:00:00.214269 nspr-2     no domain set
+00:00:00.214279 nspr-2     no search string entries
+00:00:00.214290 nspr-2   HostDnsMonitor: new information
+00:00:00.214300 nspr-2     server 1: 8.8.8.8
+00:00:00.214312 nspr-2     server 2: 114.114.114.114
+00:00:00.214323 nspr-2     server 3: 127.0.0.53
+00:00:00.214333 nspr-2     domain: .
+00:00:00.214344 nspr-2     search string 1: .
+00:00:00.220929 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.221178 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.234995 nspr-2   Loading settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:00:00.236038 nspr-2   VirtualBox: object created
+00:00:00.961352 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:02.616530 nspr-4   Launched VM: 268440192 pid: 1663 (0x67f) frontend: GUI/Qt name: win10
+00:00:02.659430 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:03.060782 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:03.588739 nspr-6   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:03.645731 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:03.739003 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:03.931748 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:04.038708 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:04.051022 nspr-8   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:00:04.282320 nspr-8   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:00:04.307603 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:05.052682 nspr-7   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:06.379316 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:09.440624 nspr-4   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:00:10.185297 nspr-4   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:00:10.210918 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:29.148741 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:29.226769 nspr-7   Saving settings file "/home/baz/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:29.346953 nspr-7   Finished saving settings file "/home/baz/.config/VirtualBox/VirtualBox.xml"
+00:00:29.348011 nspr-6   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:00:29.435879 nspr-6   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:00:29.477058 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:29.942576 nspr-5   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:00:30.036039 nspr-5   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:00:30.078369 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:32.423124 nspr-6   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:00:32.569733 nspr-6   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:00:32.598302 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:32.947783 nspr-5   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:00:33.269957 nspr-5   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:00:33.285284 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:34.025456 nspr-3   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:00:34.447987 nspr-3   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:00:34.490762 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:49.829457 nspr-6   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:00:49.962421 nspr-6   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:00:49.979165 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:15.839747 nspr-2   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:01:15.977228 nspr-2   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:01:16.005450 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:18.994601 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:01:24.768928 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:03:16.040708 USBPROXY USBProxyBackendLinux: Device 093a:2533 (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.3//device:/dev/vboxusb/001/009) isn't accessible. giving udev a few seconds to fix this...
+00:03:16.043284 USBPROXY USBProxyBackendLinux: Device 258a:010c (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.4//device:/dev/vboxusb/001/010) isn't accessible. giving udev a few seconds to fix this...
+00:04:13.229806 nspr-4   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:04:13.523676 nspr-4   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:04:13.547490 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:04:16.038180 nspr-9   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:04:16.568517 nspr-9   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:04:16.618642 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:04:17.048123 nspr-8   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:04:18.268732 nspr-8   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:04:18.316058 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:16:33.231863 nspr-7   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:16:33.727348 nspr-7   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:16:33.789715 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:18:17.066304 nspr-7   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:18:17.272697 nspr-7   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:18:17.290732 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:18:19.029698 nspr-6   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:18:19.272680 nspr-6   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:18:19.287792 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:18:23.630140 nspr-5   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:18:24.095544 nspr-5   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:18:24.111265 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:21:56.164502 nspr-5   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:21:56.656811 nspr-5   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:21:56.694313 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:29:41.954520 USBPROXY USBProxyBackendLinux: Device 093a:2533 (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.3//device:/dev/vboxusb/001/012) isn't accessible. giving udev a few seconds to fix this...
+00:29:41.954546 USBPROXY USBProxyBackendLinux: Device 258a:010c (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.4//device:/dev/vboxusb/001/013) isn't accessible. giving udev a few seconds to fix this...
+00:32:05.508534 USBPROXY USBProxyBackendLinux: Device 093a:2533 (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.3//device:/dev/vboxusb/001/015) isn't accessible. giving udev a few seconds to fix this...
+00:32:05.508578 USBPROXY USBProxyBackendLinux: Device 258a:010c (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.4//device:/dev/vboxusb/001/016) isn't accessible. giving udev a few seconds to fix this...
+00:32:07.998053 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:32:13.007483 nspr-2   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:32:13.267987 nspr-2   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:32:13.340794 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+00:32:41.455428 nspr-8   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:32:41.794384 nspr-8   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:32:41.802340 nspr-9   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:32:41.816024 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:32:41.817910 nspr-9   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:32:42.080911 SaveState Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:32:42.450099 SaveState Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:32:42.466760 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:32:42.589894 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:32:43.535246 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:35:46.940962 USBPROXY USBProxyBackendLinux: Device 258a:010c (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.4//device:/dev/vboxusb/001/019) isn't accessible. giving udev a few seconds to fix this...
+00:35:46.942542 USBPROXY USBProxyBackendLinux: Device 093a:2533 (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.3//device:/dev/vboxusb/001/018) isn't accessible. giving udev a few seconds to fix this...
+00:37:09.958760 USBPROXY USBProxyBackendLinux: Device 093a:2533 (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.3//device:/dev/vboxusb/001/021) isn't accessible. giving udev a few seconds to fix this...
+00:37:09.958805 USBPROXY USBProxyBackendLinux: Device 258a:010c (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.4//device:/dev/vboxusb/001/022) isn't accessible. giving udev a few seconds to fix this...
+00:40:24.041965 nspr-6   Launched VM: 268446192 pid: 4272 (0x10b0) frontend: GUI/Qt name: win10
+00:40:24.094261 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:40:24.940544 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:40:25.465103 nspr-9   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:40:25.940420 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+00:40:26.034268 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Restoring)}, preserve=false aResultDetail=0
+00:40:26.401175 nspr-9   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:40:26.404737 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:40:44.483179 nspr-8   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:40:44.719667 nspr-8   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:40:44.807613 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:48:30.205345 nspr-3   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:48:30.704496 nspr-3   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:48:30.721530 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:48:32.716292 nspr-6   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:48:32.949027 nspr-6   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:48:32.973348 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:48:37.329323 nspr-6   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+00:48:37.805224 nspr-6   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+00:48:37.820604 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:55:30.067781 MainPower Host suspending: Paused 1 VMs
+00:55:30.104690 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:55:38.170217 MainPower Host resumed: Resumed 1 VMs
+00:55:38.207080 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:05:06.451298 nspr-5   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+01:05:07.332819 nspr-5   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+01:05:07.391472 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:05:08.510643 nspr-8   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+01:05:10.721966 nspr-8   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+01:05:10.746113 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:05:13.655901 nspr-2   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+01:05:14.289135 nspr-2   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+01:05:14.318919 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:10:41.368631 MainPower Host suspending: Paused 1 VMs
+01:10:41.437224 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:10:50.196157 MainPower Host resumed: Resumed 1 VMs
+01:10:50.248002 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:10:55.981013 USBPROXY USBProxyBackendLinux: Device 093a:2533 (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.3//device:/dev/vboxusb/001/027) isn't accessible. giving udev a few seconds to fix this...
+01:10:55.983136 USBPROXY USBProxyBackendLinux: Device 258a:010c (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.4//device:/dev/vboxusb/001/028) isn't accessible. giving udev a few seconds to fix this...
+01:11:01.458982 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:11:03.911056 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+01:11:22.756227 nspr-6   Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+01:11:22.941875 nspr-6   Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+01:11:22.953787 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:11:22.987917 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:11:22.991163 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:11:23.265154 SaveState Saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox" with version "1.19-linux"
+01:11:23.475303 SaveState Finished saving settings file "/home/baz/VirtualBox VMs/win10/win10.vbox"
+01:11:23.493347 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:11:23.602101 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:11:24.785524 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:18:01.555115 USBPROXY USBProxyBackendLinux: Device 093a:2533 (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.3//device:/dev/vboxusb/001/030) isn't accessible. giving udev a few seconds to fix this...
+01:18:01.555142 USBPROXY USBProxyBackendLinux: Device 258a:010c (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.4//device:/dev/vboxusb/001/031) isn't accessible. giving udev a few seconds to fix this...
+01:18:19.217364 main     VirtualBox: object deletion starts
+01:18:19.217576 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/baz/VirtualBox VMs/win10/win10.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:18:19.218494 main     HostDnsMonitor: shutting down ...
+01:18:19.239886 main     HostDnsMonitor: shut down
+01:18:19.251279 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:18:19.251401 main     VirtualBox: object deleted
